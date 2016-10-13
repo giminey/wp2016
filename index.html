@@ -1,12 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>自介網頁	</title>
   <link rel='stylesheet' type='text/css' href='css/app.css'>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+
+  <script src="js/jquery-3.1.1.js" ></script>
+  <script src="js/jquery.slicebox.js" ></script>
+  <script src="js/bootstrap.min.js" ></script>
+  <script src="js/cover.js" ></script>
+  <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+
+  <style type="text/css">
+  	.odd{
+	background: -webkit-linear-gradient(azure,lightskyblue);
+	background: -o-linear-gradient(azure,lightskyblue);
+	background: -moz-linear-gradient(azure,lightskyblue);
+	background: linear-gradient(azure,lightskyblue);
+  	}
+  	.even{
+	background: -webkit-linear-gradient(lightskyblue,azure);
+	background: -o-linear-gradient(lightskyblue,azure);
+	background: -moz-linear-gradient(lightskyblue,azure);
+	background: linear-gradient(lightskyblue,azure);
+}
+  </style>
 </head>
 <body>
-<h1>TEST</h1>
-<p>HELLO WORLD3!!!</p>
+
+<div class="main">
+	<section class="even">
+		<h1>TEST</h1>
+		<p>HELLO WORLD3!!!</p>
+		<ul class="nav nav-tabs">
+	        <li><button type="button" class="btn  btn-default  active aaa">Default</button></li>
+	        <li><button type="button" class="btn  btn-primary aaa">Default</button></li>
+	        <li><button type="button" class="btn  btn-success aaa">Default</button></li>
+	        <li><button type="button" class="btn  btn-info aaa">Default</button></li>
+	        <li><button type="button" class="btn  btn-warning aaa" >Default</button></li>
+	        <li><button type="button" class="btn  btn-danger aaa">Default</button></li>
+	    </ul>
+	 
+	</section>
+	<section class="odd" >
+		<ul class="nav nav-tabs">
+	        <li><button type="button" class="btn  btn-default aaa "  >Default</button></li>
+	        <li><button type="button" class="btn  btn-primary aaa active "  >Default</button></li>
+	        <li><button type="button" class="btn  btn-success aaa"  >Default</button></li>
+	        <li><button type="button" class="btn  btn-info aaa"  >Default</button></li>
+	        <li><button type="button" class="btn  btn-warning aaa"  >Default</button></li>
+	        <li><button type="button" class="btn  btn-danger aaa"  >Default</button></li>
+	    </ul>
+	</section>
+	<section class="even" >
+			<ul class="nav nav-tabs">
+	        <li><button type="button" class="btn  btn-default aaa ">Default</button></li>
+	        <li><button type="button" class="btn  btn-primary aaa">Default</button></li>
+	        <li><button type="button" class="btn  btn-success aaa active">Default</button></li>
+	        <li><button type="button" class="btn  btn-info aaa">Default</button></li>
+	        <li><button type="button" class="btn  btn-warning aaa">Default</button></li>
+	        <li><button type="button" class="btn  btn-danger aaa">Default</button></li>
+	    </ul>
+	</section>
+	<section class="odd" >
+			<ul class="nav nav-tabs">
+	        <li><button type="button" class="btn  btn-default aaa "  >Default</button></li>
+	        <li><button type="button" class="btn  btn-primary aaa"  >Default</button></li>
+	        <li><button type="button" class="btn  btn-success aaa"  >Default</button></li>
+	        <li><button type="button" class="btn  btn-info aaa active"  >Default</button></li>
+	        <li><button type="button" class="btn  btn-warning aaa"  onclick="movepage()">Default</button></li>
+	        <li><button type="button" class="btn  btn-danger aaa"  >Default</button></li>
+	    </ul>
+	</section>
+	<section class="even" >
+			<ul class="nav nav-tabs">
+	        <li><button type="button" class="btn  btn-default aaa "  >Default</button></li>
+	        <li><button type="button" class="btn  btn-primary aaa"  >Default</button></li>
+	        <li><button type="button" class="btn  btn-success aaa"  >Default</button></li>
+	        <li><button type="button" class="btn  btn-info aaa"  >Default</button></li>
+	        <li><button type="button" class="btn  btn-warning aaa active" >Default</button></li>
+	        <li><button type="button" class="btn  btn-danger aaa" >Default</button></li>
+	    </ul>
+	</section>
+	<section class=" odd" >
+			<ul class="nav nav-tabs">
+	        <li><button type="button" class="btn  btn-default aaa " >Default</button></li>
+	        <li><button type="button" class="btn  btn-primary aaa" >Default</button></li>
+	        <li><button type="button" class="btn  btn-success aaa" >Default</button></li>
+	        <li><button type="button" class="btn  btn-info aaa" >Default</button></li>
+	        <li><button type="button" class="btn  btn-warning aaa" >Default</button></li>
+	        <li><button type="button" class="btn  btn-danger aaa active" >Default</button></li>
+	    </ul>
+	</section>
+</div>
+  		
 </body>
 </html>
