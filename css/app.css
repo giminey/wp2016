@@ -1,4 +1,56 @@
 h1{
 border-style:ridge;
 }
-
+.main-r{
+	border: inset;
+	
+}
+.row{
+	padding-top: 1%;
+	padding-left: 1%;
+}
+.col_li:{
+	color:blue;
+}
+.cov_li:hover{
+	color:darkblue;
+	text-decoration:underline;
+	font-weight: bold;
+}
+#show{
+	padding: auto;
+	text-align: center;
+	position: :relative;
+}
+#cov_img{
+	position: relative;
+}
+.cov_c_l{
+	background-color:#80dfff;
+	position:absolute;
+	bottom: 180px;
+	left: 20%;
+	z-index: 100000;
+	border-radius:   100px  0 0 100px ;
+	color:darkblue;
+	border: none;
+}
+.cov_c_r{
+	background-color:#80dfff;
+	position:absolute;
+	border-radius: 0  100px 100px 0;
+	bottom: 180px;
+	left:76%;
+	border: none;
+	color:darkblue;
+	z-index: 100000;
+}
+.cov_c_r:hover{
+	background-color:  #00ace6;
+}
+.cov_c_l:hover{
+	background-color:  #00ace6;
+}
+.row{
+	z-index: -1;
+}

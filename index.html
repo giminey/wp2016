@@ -11,90 +11,136 @@
   <script src="js/jquery.slicebox.js" ></script>
   <script src="js/bootstrap.min.js" ></script>
   <script src="js/cover.js" ></script>
+  <script src="js/bubble.js" ></script>
   <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
 
+
+
   <style type="text/css">
-  	.odd{
-	background: -webkit-linear-gradient(azure,lightskyblue);
-	background: -o-linear-gradient(azure,lightskyblue);
-	background: -moz-linear-gradient(azure,lightskyblue);
-	background: linear-gradient(azure,lightskyblue);
+  	.even1{
+		background: -webkit-linear-gradient(#e6f0ff,#b3d1ff);
+		background: -o-linear-gradient(#e6f0ff,#b3d1ff);
+		background: -moz-linear-gradient(#e6f0ff,#b3d1ff);
+		background: linear-gradient(#e6f0ff,#b3d1ff);
   	}
-  	.even{
-	background: -webkit-linear-gradient(lightskyblue,azure);
-	background: -o-linear-gradient(lightskyblue,azure);
-	background: -moz-linear-gradient(lightskyblue,azure);
-	background: linear-gradient(lightskyblue,azure);
-}
+  	.odd1{
+		background: -webkit-linear-gradient(#b3d1ff,#9999ff);
+		background: -o-linear-gradient(#b3d1ff,#9999ff);
+		background: -moz-linear-gradient(#b3d1ff,#9999ff);
+		background: linear-gradient(#b3d1ff,#9999ff);
+	}
+	 .even2{
+		background: -webkit-linear-gradient(#9999ff,#6666ff);
+		background: -o-linear-gradient(#9999ff,#6666ff);
+		background: -moz-linear-gradient(#9999ff,#6666ff);
+		background: linear-gradient(#9999ff,#6666ff);
+  	}
+  	.odd2{
+	background: -webkit-linear-gradient(#6666ff,#3333ff);
+	background: -o-linear-gradient(#6666ff,#3333ff);
+	background: -moz-linear-gradient(#6666ff,#3333ff);
+	background: linear-gradient(#6666ff,#3333ff);
+	}
+  	.even3{
+		background: -webkit-linear-gradient(#3333ff,#0000ff);
+		background: -o-linear-gradient(#3333ff,#0000ff);
+		background: -moz-linear-gradient(#3333ff,#0000ff);
+		background: linear-gradient(#3333ff,#0000ff);
+  	}
+  	.odd3{
+		background: -webkit-linear-gradient(#0000ff,#0000e6,#0000cc,#003399);
+		background: -o-linear-gradient(#0000ff,#0000e6,#0000cc,#003399);
+		background: -moz-linear-gradient(#0000ff,#0000e6,#0000cc,#003399);
+		background: linear-gradient(#0000ff,#0000e6,#0000cc,#003399);
+	}
   </style>
 </head>
 <body>
 
 <div class="main">
-	<section class="even">
+	<section class="even1">
 		<h1>TEST</h1>
 		<p>HELLO WORLD3!!!</p>
 		<ul class="nav nav-tabs">
-	        <li><button type="button" class="btn  btn-default  active aaa">Default</button></li>
-	        <li><button type="button" class="btn  btn-primary aaa">Default</button></li>
-	        <li><button type="button" class="btn  btn-success aaa">Default</button></li>
-	        <li><button type="button" class="btn  btn-info aaa">Default</button></li>
-	        <li><button type="button" class="btn  btn-warning aaa" >Default</button></li>
-	        <li><button type="button" class="btn  btn-danger aaa">Default</button></li>
+		        <li><button type="button" class="btn  btn-default  active aaa">封面</button></li>
+		        <li><button type="button" class="btn  btn-primary aaa">Default</button></li>
+		        <li><button type="button" class="btn  btn-success aaa">Default</button></li>
+		        <li><button type="button" class="btn  btn-info aaa">Default</button></li>
+		        <li><button type="button" class="btn  btn-warning aaa" >Default</button></li>
+		        <li><button type="button" class="btn  btn-danger aaa">Default</button></li>
 	    </ul>
-	 
+	 <div class='row'>
+	 	<div class="col-md-3 main-l">
+	 		<h3>選單</h3>
+	 		<ul style="list-style-type:none">
+	 			<li class='cov_li'><a href="#">個人照片</a></li>
+	 			<li class='cov_li'><a href="#">我的興趣</a></li>
+	 			<li class='cov_li'><a href="#">我的家庭</a></li>
+	 			<li class='cov_li'><a href="#">進大學以前...</a></li>
+	 			
+	 		</ul>
+	 	</div>
+	 	<div class="col-md-9 main-r">
+	 		<h3>tilte</h3>
+	 		<p>fjdskl;fjsad;lkfjdsalk;fjsdalk;fjsdlkad;jflk;dsajflk;sdajfl</p>
+	 	</div>
+	 </div>
 	</section>
-	<section class="odd" >
+	<section class="odd1" >
 		<ul class="nav nav-tabs">
-	        <li><button type="button" class="btn  btn-default aaa "  >Default</button></li>
-	        <li><button type="button" class="btn  btn-primary aaa active "  >Default</button></li>
-	        <li><button type="button" class="btn  btn-success aaa"  >Default</button></li>
-	        <li><button type="button" class="btn  btn-info aaa"  >Default</button></li>
-	        <li><button type="button" class="btn  btn-warning aaa"  >Default</button></li>
-	        <li><button type="button" class="btn  btn-danger aaa"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-default aaa "  >封面</button></li>
+		        <li><button type="button" class="btn  btn-primary aaa active "  >Default</button></li>
+		        <li><button type="button" class="btn  btn-success aaa"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-info aaa"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-warning aaa"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-danger aaa"  >Default</button></li>
 	    </ul>
 	</section>
-	<section class="even" >
+	<section class="even2" >
 			<ul class="nav nav-tabs">
-	        <li><button type="button" class="btn  btn-default aaa ">Default</button></li>
-	        <li><button type="button" class="btn  btn-primary aaa">Default</button></li>
-	        <li><button type="button" class="btn  btn-success aaa active">Default</button></li>
-	        <li><button type="button" class="btn  btn-info aaa">Default</button></li>
-	        <li><button type="button" class="btn  btn-warning aaa">Default</button></li>
-	        <li><button type="button" class="btn  btn-danger aaa">Default</button></li>
-	    </ul>
+		        <li><button type="button" class="btn  btn-default aaa ">封面</button></li>
+		        <li><button type="button" class="btn  btn-primary aaa">Default</button></li>
+		        <li><button type="button" class="btn  btn-success aaa active">Default</button></li>
+		        <li><button type="button" class="btn  btn-info aaa">Default</button></li>
+		        <li><button type="button" class="btn  btn-warning aaa">Default</button></li>
+		        <li><button type="button" class="btn  btn-danger aaa">Default</button></li>
+	    	</ul>
 	</section>
-	<section class="odd" >
+	<section class="odd2" >
 			<ul class="nav nav-tabs">
-	        <li><button type="button" class="btn  btn-default aaa "  >Default</button></li>
-	        <li><button type="button" class="btn  btn-primary aaa"  >Default</button></li>
-	        <li><button type="button" class="btn  btn-success aaa"  >Default</button></li>
-	        <li><button type="button" class="btn  btn-info aaa active"  >Default</button></li>
-	        <li><button type="button" class="btn  btn-warning aaa"  onclick="movepage()">Default</button></li>
-	        <li><button type="button" class="btn  btn-danger aaa"  >Default</button></li>
-	    </ul>
+		        <li><button type="button" class="btn  btn-default aaa "  >封面</button></li>
+		        <li><button type="button" class="btn  btn-primary aaa"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-success aaa"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-info aaa active"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-warning aaa"  onclick="movepage()">Default</button></li>
+		        <li><button type="button" class="btn  btn-danger aaa"  >Default</button></li>
+	    	</ul>
 	</section>
-	<section class="even" >
+	<section class="even3" >
 			<ul class="nav nav-tabs">
-	        <li><button type="button" class="btn  btn-default aaa "  >Default</button></li>
-	        <li><button type="button" class="btn  btn-primary aaa"  >Default</button></li>
-	        <li><button type="button" class="btn  btn-success aaa"  >Default</button></li>
-	        <li><button type="button" class="btn  btn-info aaa"  >Default</button></li>
-	        <li><button type="button" class="btn  btn-warning aaa active" >Default</button></li>
-	        <li><button type="button" class="btn  btn-danger aaa" >Default</button></li>
-	    </ul>
+		        <li><button type="button" class="btn  btn-default aaa "  >封面</button></li>
+		        <li><button type="button" class="btn  btn-primary aaa"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-success aaa"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-info aaa"  >Default</button></li>
+		        <li><button type="button" class="btn  btn-warning aaa active" >Default</button></li>
+		        <li><button type="button" class="btn  btn-danger aaa" >Default</button></li>
+	    	</ul>
 	</section>
-	<section class=" odd" >
+	<section class=" odd3" >
 			<ul class="nav nav-tabs">
-	        <li><button type="button" class="btn  btn-default aaa " >Default</button></li>
-	        <li><button type="button" class="btn  btn-primary aaa" >Default</button></li>
-	        <li><button type="button" class="btn  btn-success aaa" >Default</button></li>
-	        <li><button type="button" class="btn  btn-info aaa" >Default</button></li>
-	        <li><button type="button" class="btn  btn-warning aaa" >Default</button></li>
-	        <li><button type="button" class="btn  btn-danger aaa active" >Default</button></li>
-	    </ul>
+		        <li><button type="button" class="btn  btn-default aaa " >封面</button></li>
+		        <li><button type="button" class="btn  btn-primary aaa" >Default</button></li>
+		        <li><button type="button" class="btn  btn-success aaa" >Default</button></li>
+		        <li><button type="button" class="btn  btn-info aaa" >Default</button></li>
+		        <li><button type="button" class="btn  btn-warning aaa" >Default</button></li>
+		        <li><button type="button" class="btn  btn-danger aaa active" >Default</button></li>
+	    	</ul>
+	    <div class='row'>
+	    	<div class='col-md-3' >
+	    </div>
 	</section>
+
 </div>
-  		
+ <script src="js/clicktest.js" ></script>
 </body>
 </html>
